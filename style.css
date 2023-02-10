@@ -1,0 +1,90 @@
+/* Immaigne di sfondo */
+body {
+  background-image: url(MaterialeEsercizioLim/background.jpg);
+  background-size:cover;
+  height: 100%;
+}
+
+/* Allineamento del tutto */
+*:not(input) {
+  font-family: 'Anek Bangla', sans-serif;
+}
+
+/* Sfondo nero opaco */
+.background {
+  background: rgba(0, 0, 0, 0.6);
+  margin: 0% 20% 0% 20%;
+  border: hidden;
+  border-radius: 12px;
+}
+
+nav {
+  padding-bottom: 5%;
+}
+
+/* Dimensioni Logo */
+#size {
+  width: 30%;
+  height: 30%;
+  padding: 10% 0 0 0;
+  text-align: left;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Colore del Motto(?) */
+#motto{
+  color: #00ff00;
+  text-align: center;
+}
+
+/* Barra con i pulsanti */
+.tool {
+  border: solid #00ff00;
+  padding: 8px;
+  background-color: #00ff00;
+  margin: 5%;
+  text-align: center;
+}
+
+.position{
+  margin: 5%;
+}
+
+.title {
+  font-size: 150%
+}
+
+* > nav {
+  color: white;
+}
+
+.arrow:after{
+  content: "\27FC";
+}
+
+.medium {
+  background-color: #ffa64d;
+  border: solid #ffa64d;
+  border-radius: 6px;
+  width: 45%;
+}
+
+.full {
+  background-color: #00ff00;
+  border: solid #00ff00;
+  border-radius: 6px;
+  width: 80%;
+}
+
+.rare {
+  background-color: #ff3333;
+  border: solid #ff3333;
+  border-radius: 6px;
+  width: 20%;
+}
+
+.trasparent {
+  color: rgb(0, 0, 0, 0)
+}
